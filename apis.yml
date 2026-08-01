@@ -1,7 +1,28 @@
 aid: simplycook
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplycook.png
 name: SimplyCook
-description: SimplyCook is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SimplyCook is a UK-based recipe-box and meal-flavoring subscription service
+  (tagline "For simple pleasures, SimplyCook.") that ships monthly boxes of
+  flavor pots, stocks, and spice blends alongside curated recipes so subscribers
+  can cook varied meals at home in around twenty minutes. Surfaced as a portfolio
+  company of 500 Global and added to the API Evangelist network for enrichment.
+  SimplyCook operates as a direct-to-consumer e-commerce brand; it runs an
+  internal application backend at api.simplycook.com but publishes no public
+  developer API, developer portal, OpenAPI definition, SDKs, or /.well-known
+  discovery surface. This profile therefore carries only what could be genuinely
+  probed: DNS/TLS/HTTP domain-security posture for the company domain.
 url: https://raw.githubusercontent.com/api-evangelist/simplycook/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Food and Beverage
+- Meal Kits
+- Subscription
+- E-commerce
+- Consumer
+- Recipes
+- Direct to Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/simplycook-domain-security.yml
 - type: Website
   url: https://simplycook.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
