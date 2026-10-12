@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/simplycook/integrations
+- https://n8n.io/integrations/simplycook/
+- https://composio.dev/toolkits/simplycook
+- https://monid.ai/tools/simplycook
+checked:
+- https://composio.dev/toolkits/simplycook
+- https://monid.ai/tools/simplycook
+- https://n8n.io/integrations/simplycook/
+- https://zapier.com/apps/simplycook/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
